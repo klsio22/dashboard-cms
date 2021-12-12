@@ -1,0 +1,41 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.featuredItem {
+  flex: 1;
+  margin: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 0px 15px -5px black;
+}
+
+.featureElements {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  margin: 2px 1rem;
+}
+
+.featuredIcon {
+  padding-top: 2rem;
+}
+
+.featuredRegisteredUnit {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 1rem;
+  font-size: 14px;
+}
+.featuredTitle {
+  width: 8rem;
+  margin-bottom: 8px;
+}
+
+.featuredRate, .featuredIcon{
+  color: darkgoldenrod;
+}
