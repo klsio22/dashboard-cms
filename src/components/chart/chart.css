@@ -1,7 +1,31 @@
-.chart{
+.salesReport {
   margin: 20px;
   padding: 20px;
-  -webkit-box-shadow:2px 0px 15px -5px black;
+  -webkit-box-shadow: 2px 0px 15px -5px black;
   box-shadow: 2px 0px 15px -5px black;
 
+  border-radius: 10px;
+}
+
+.icomes {
+ 
+
+}
+
+.weeklyIncomes {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 2px 0px 15px -5px black;
+  box-shadow: 2px 0px 15px -5px black;
+
+  border-radius: 10px;
+}
+
+.monthlyIncome {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 2px 0px 15px -5px black;
+  box-shadow: 2px 0px 15px -5px black;
+
+  border-radius: 10px;
 }

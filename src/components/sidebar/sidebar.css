@@ -4,11 +4,10 @@
   position: sticky;
   top: 50px;
   box-shadow: 2px 0px 15px -5px black;
-  margin:-7px;
+  margin:-2rem -7px;
 }
 
 .sidebarWrapper {
-  padding: 0;
   color: #555;
 }
 
