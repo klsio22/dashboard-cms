@@ -17,9 +17,10 @@
   margin-bottom: 10px;
 }
 
-.sidebarTitle {
-  font-size: 14px;
-  color: rgb(94, 94, 94);
+.sidebarTitle{
+  display: flex;
+  align-items: center;
+  color: darkgoldenrod;
 }
 
 .sidebarList {

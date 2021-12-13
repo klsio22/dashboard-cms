@@ -1,7 +1,7 @@
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
-import "./app.css";
 import Home from "./pages/home/Home";
+import "./app.css";
 function App() {
   return (
     <div className="App">

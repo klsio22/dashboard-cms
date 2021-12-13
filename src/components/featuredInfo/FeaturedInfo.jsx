@@ -1,4 +1,3 @@
-import React from "react";
 import "./featuredInfo.css";
 
 import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";

@@ -10,6 +10,7 @@
   margin: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-box-shadow:2px 0px 15px -5px black;
   box-shadow: 2px 0px 15px -5px black;
 }
 
@@ -37,5 +38,5 @@
 }
 
 .featuredRate, .featuredIcon{
-  color: darkgoldenrod;
+  color: #b8860b;
 }
