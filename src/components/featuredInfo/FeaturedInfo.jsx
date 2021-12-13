@@ -7,6 +7,7 @@ import AccountBalanceOutlinedIcon from "@material-ui/icons/AccountBalanceOutline
 export default function FeaturedInfo() {
   return (
     <div className="featured">
+      
       <div className="featuredItem">
         <div className="featureElements">
           <span className="featuredIcon">
@@ -54,10 +55,6 @@ export default function FeaturedInfo() {
           </div>
         </div>
       </div>
-
-      <div></div>
-      <div></div>
-      <div></div>
     </div>
   );
 }

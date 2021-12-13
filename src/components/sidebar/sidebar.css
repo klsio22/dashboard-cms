@@ -1,10 +1,10 @@
 .sidebar {
   flex: 1;
-  height: calc(100vh - 50px);
   background-color: rgb(255, 255, 255);
   position: sticky;
   top: 50px;
   box-shadow: 2px 0px 15px -5px black;
+  margin:-7px;
 }
 
 .sidebarWrapper {
@@ -15,6 +15,7 @@
 .sidebarMenu {
   padding: 1rem;
   margin-bottom: 10px;
+  position: fixed;
 }
 
 .sidebarTitle{
@@ -39,10 +40,32 @@
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
-  background-color: rgb(235, 235, 235);
+  background-color: #ebebeb;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: darkgoldenrod;
+  cursor: pointer;
+}
+
 
 .sidebarIcon{
   margin-right: 10px;
   font-size: 20px;
+}
+
+.LogOut{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 20rem;
+}
+
+.LogOut:hover{
+  background-color: #ebebeb;
+
 }

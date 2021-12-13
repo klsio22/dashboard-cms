@@ -90,35 +90,67 @@ export default function Chart() {
   ];
 
   return (
-    <div className="chart">
-      <h3 className="chartTitle">Relatório de vendas</h3>
-      <ResponsiveContainer width="100%" aspect={4 / 1}>
-        <LineChart
-          width={500}
-          height={300}
-          data={data}
-          margin={{
-            top: 10,
-            right: 40,
-            left: 20,
-            bottom: 5,
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" stroke="#5550bd" />
-          <YAxis dataKey="valueMax" />
-          <Tooltip />
+    <div>
+      <div className="chart">
+        <h3 className="chartTitle">Relatório de vendas</h3>
+        <ResponsiveContainer width="100%" aspect={4 / 1}>
+          <LineChart
+            width={500}
+            height={300}
+            data={data}
+            margin={{
+              top: 10,
+              right: 40,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" stroke="#5550bd" />
+            <YAxis dataKey="valueMax" />
+            <Tooltip />
 
-          <Legend />
-          <Line
-            type="monotone"
-            dataKey="Vendas de 2020"
-            stroke="#b8860b"
-            activeDot={{ r: 8 }}
-          />
-          <Line type="monotone" dataKey="Vendas de 2021" stroke="#A902DB" />
-        </LineChart>
-      </ResponsiveContainer>
+            <Legend />
+            <Line
+              type="monotone"
+              dataKey="Vendas de 2020"
+              stroke="#b8860b"
+              activeDot={{ r: 8 }}
+            />
+            <Line type="monotone" dataKey="Vendas de 2021" stroke="#A902DB" />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
+      <div className="chart">
+        <h3 className="chartTitle">Relatório de vendas</h3>
+        <ResponsiveContainer width="100%" aspect={4 / 1}>
+          <LineChart
+            width={500}
+            height={300}
+            data={data}
+            margin={{
+              top: 10,
+              right: 40,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" stroke="#5550bd" />
+            <YAxis dataKey="valueMax" />
+            <Tooltip />
+
+            <Legend />
+            <Line
+              type="monotone"
+              dataKey="Vendas de 2020"
+              stroke="#b8860b"
+              activeDot={{ r: 8 }}
+            />
+            <Line type="monotone" dataKey="Vendas de 2021" stroke="#A902DB" />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
     </div>
   );
 }
